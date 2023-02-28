@@ -14,7 +14,7 @@ const questions = [
 
     {
         type: "input",
-        name: "email address",
+        name: "email",
         message: "what is your email address?"
     },
 
@@ -26,12 +26,12 @@ const questions = [
 
     {
         type: "input",
-        name: "short description",
+        name: "description",
         message: "give us a short description?"
     },
    
     {
-        type: "list ",
+        type: "list",
         name: "license",
         message: "what type of license?",
         choices:["MIT","APACHE 2.0","GPL","None"]
@@ -54,7 +54,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "what does user want to know about using the repo?"
+        message: "what does user need to know about using the repo?"
     },
 
     {
